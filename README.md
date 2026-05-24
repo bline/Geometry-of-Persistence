@@ -28,14 +28,14 @@ Larger scales are coarse-grained descriptions of the same triple — the same fo
 
 ### Foundations
 
-**`constraint_process_framework_v3.md`**
+**`01_framework_core.md`**
 The core philosophical statement of the framework. Establishes the process view, the boundary concept, the three stability regimes, the account of self and awareness, the hard problem treatment, and the multi-scale constraint layer analysis. Start here for the conceptual foundation.
 
-**`formal_gaps_coarsegraining.md`**
+**`02_formal_triple.md`, `03_formal_extensions.md`, and `04_open_frontiers.md`**
 The formal development. Defines the triple (S, T, μ) precisely, specifies the coarse-graining mechanism across scale transitions, formalizes boundary as spectral gap and conductance, introduces the adaptive triple T_t = F(μ_{0:t}), develops the predictive self-model formalization, and locates the framework's open frontiers. The most technically developed document in the project.
 
-**`constraint_geometry_formalization.md`**
-An earlier formalization sketch, now partially superseded by `formal_gaps_coarsegraining.md`. Useful for the worked treatment of quantum mechanical symmetry, the Pauli exclusion derivation, and the early boundary table distinguishing symmetry from energetic boundaries.
+**`05_scale_atomic.md`**
+The atomic worked case, now including the Pauli antisymmetry derivation and the quantum boundary-type distinction (symmetry vs energetic boundaries) integrated directly into the scale document.
 
 ---
 
@@ -43,32 +43,32 @@ An earlier formalization sketch, now partially superseded by `formal_gaps_coarse
 
 The framework is developed concretely through worked cases at each scale. Each case applies the triple's vocabulary — state space, transition structure, measure, boundary, energy flow, recursion, decay — to a specific system.
 
-**`worked_case_hydrogen_helium.md`** — *Atomic scale*
+**`05_scale_atomic.md`** — *Atomic scale*
 Hydrogen as the simplest stable constraint configuration. Helium introducing Pauli exclusion as internal symmetry geometry. Chemical reactivity as availability of high-rate transitions to more stable configurations. The framework's clearest regime: exact geometry, computable boundaries, precise decay.
 
-**`biological_scale_active_stability.md`** — *Biological scale: theory*
+**`06_scale_biological.md`** — *Biological scale: theory*
 The transition from passive to dynamic stability. Three boundary regimes defined and distinguished. Life as constraint geometry sustained through ongoing work rather than resting in equilibrium. Dissipative structures, entropy export, and the recursive loop as structural necessity. The multi-scale constraint layer analysis: neural, behavioral, social, ecological.
 
-**`worked_case_cell_membrane.md`** — *Biological scale: worked case*
+**`07_scale_cell_membrane.md`** — *Biological scale: worked case*
 The sodium-potassium pump as directed transition constraint. The electrochemical gradient as maintained differential in state space — the boundary as gradient, not as membrane. ATP cycle as entropy export. Failure modes as specific, predictable disruptions of the recursive loop. The cleanest biological demonstration of the framework's boundary definition.
 
-**`worked_case_neuron.md`** — *Neural scale*
+**`08_scale_neuron.md`** — *Neural scale*
 State-dependent constraint geometry: voltage-gated channels that reconfigure available transitions as the system moves through S. The action potential as partial, localized reduction of the dynamic boundary — controlled gradient dissipation as signaling. The refractory period as self-limiting effective geometry. Network-level constraint geometry as geometry of geometries.
 
-**`worked_case_cognitive_scale.md`** — *Cognitive scale*
+**`09_scale_cognitive.md`** — *Cognitive scale*
 Network S_net as coarse-grained projection of S. Attractor formation through Hebbian plasticity: the Hopfield derivation connecting synaptic weights to an energy function, with attractors as its minima. Memory as attractor structure. External constraint coupling. The self-model as recursively active attractor — existence itself deepening the basin. Global constraint integration as the awareness candidate. The hard problem located precisely and honestly left open.
 
 ---
 
 ## Reading Paths
 
-**For a philosophical overview**: `constraint_process_framework_v3.md` alone gives the full conceptual scope.
+**For a philosophical overview**: `01_framework_core.md` alone gives the full conceptual scope.
 
-**For the formal structure**: `formal_gaps_coarsegraining.md` — the triple definition, coarse-graining mechanisms, spectral boundary formalization, adaptive triple, predictive self-model, and located open directions.
+**For the formal structure**: `02_formal_triple.md`, `03_formal_extensions.md`, and `04_open_frontiers.md` — the triple definition, coarse-graining mechanisms, spectral boundary formalization, adaptive triple, predictive self-model, and located open directions.
 
-**For the scale progression**: read the worked cases in order — hydrogen/helium → cell membrane → neuron → cognitive scale — with `biological_scale_active_stability.md` before the membrane case.
+**For the scale progression**: read in order `05_scale_atomic.md` → `06_scale_biological.md` → `07_scale_cell_membrane.md` → `08_scale_neuron.md` → `09_scale_cognitive.md`.
 
-**For the hardest questions**: the awareness section and epiphenomenon treatment in `formal_gaps_coarsegraining.md`, and the hard problem section in `worked_case_cognitive_scale.md`.
+**For the hardest questions**: the awareness section and epiphenomenon treatment in `02_formal_triple.md`, `03_formal_extensions.md`, and `04_open_frontiers.md`, and the hard problem section in `09_scale_cognitive.md`.
 
 ---
 
